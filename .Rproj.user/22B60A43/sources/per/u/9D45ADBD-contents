@@ -1,0 +1,31 @@
+data <- read.csv("diabetes.csv")
+print(data)
+
+#NORMALITY CHEACK FOR THEDATA SET
+
+
+
+
+library(EnvStats)
+
+test <- rosnerTest(data$BMI,k = 3) #THREE OUTLIER
+
+test1 <- rosnerTest(data$Pregnancies,k = 3)# NO OUTLIER
+
+test2 <- rosnerTest(data$Glucose,k = 3) # NO OUTLIER
+
+test3 <- rosnerTest(data$BloodPressure,k = 3) # NO OUTLIER
+
+test4 <- rosnerTest(data$DiabetesPedigreeFunction,k = 3) #THREE OUTLIER
+
+test5 <- rosnerTest(data$SkinThickness,k = 3)# ONE OUTLIER
+
+test6 <- rosnerTest(data$Age,k = 3)# ONE OUTLIER
+
+test7 <- rosnerTest(data$Outcome,k = 3) # NO OUTLIER
+
+
+
+
+
+

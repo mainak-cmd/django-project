@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1619582394140.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "345106910",
+    "id" : "AD055569",
+    "lastKnownWriteTime" : 1619605051,
+    "last_content_update" : 1619605052472,
+    "path" : "D:/stock price/web,api/diabatise/preprocessing/preprocessing.py",
+    "project_path" : "preprocessing/preprocessing.py",
+    "properties" : {
+        "cursorPosition" : "1,10",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "python"
+}

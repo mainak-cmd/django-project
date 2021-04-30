@@ -1,0 +1,108 @@
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME TO CLINIC</title>
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .main{
+            position: fixed;
+            top: 140px;
+            left: 410px;
+            width: 550px;
+            background-color:#ffffff;
+            border-radius: 10px;
+            align-items: center;
+            padding: 5%;
+        }
+        h1{
+            color: #0086b3;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        input[type=submit]{
+            background-color: #4dc3ff;
+            border: 2px;
+            color: white;
+            padding: 8px 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .welcome{
+           color: #0086b3
+    </style>
+</head>
+<body>
+{% load static %} <img src='{% static "pradection/heartattack.jpg" %}'>
+<p class="welcome"> WELCOME TO CLINIC! </p>
+<div align="center">
+     <h1>
+         FILL THE FROM
+     </h1>
+     <form action="result">
+         <table>
+             <tr>
+                 <td align="right">Pregnancies:</td>
+                 <td align="left"> <input type="text" name="n1"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">Glucose:</td>
+                 <td align="left"> <input type="text" name="n2"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">BloodPressure:</td>
+                 <td align="left"> <input type="text" name="n3"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">SkinThickness:</td>
+                 <td align="left"> <input type="text" name="n4"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">Insulin:</td>
+                 <td align="left"> <input type="text" name="n5"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">BMI:</td>
+                 <td align="left"> <input type="text" name="n6"> </td>
+             </tr>
+
+             <tr>
+                 <td align="right">DiabetesPedigreeFunction:</td>
+                 <td align="left"> <input type="text" name="n7"> </td>
+             </tr>
+
+
+             <tr>
+                 <td align="right">Age:</td>
+                 <td align="left"> <input type="text" name="n8"> </td>
+             </tr>
+
+         </table>
+
+         <input type="submit">
+
+     </form>
+    <p>Doctor1:{{ doctor1 }}<br></p>
+
+    <p>Doctor2:{{ doctor2 }}<br></p>
+
+    <p>Doctor3:{{ doctor3 }}<br></p>
+
+    <p>Doctor4:{{ doctor4 }}<br></p>
+
+</div>
+</body>
+</html>
+
+
